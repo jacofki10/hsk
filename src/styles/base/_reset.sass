@@ -1,0 +1,28 @@
+html
+    font-family: var(--main-font), var(--alternate-font)
+    font-size: var(--font-size)
+    line-height: var(--line-height)
+    color: var(--text-color)
+    background-color: var(--bg-color)
+
+body
+    font-family: inherit
+    font-size: inherit
+    color: inherit
+    background-color: inherit
+    overflow-x: hidden
+    overflow-y: scroll
+
+a
+    text-decoration: none
+    color: var(--link-color)
+    transition: all .3s ease-out
+
+a:hover
+    color: var(--link-hover-color)
+    text-decoration: none !important
+    opacity: 0.3
+
+::selection
+    background-color: var(--main-color)
+    color: var(--second-color) !important

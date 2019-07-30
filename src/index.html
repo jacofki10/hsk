@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Study Hsk </title>
+
+  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.5.0/css/bootstrap4-toggle.min.css"
+    rel="stylesheet">
+</head>
+
+<body class="container clearfix">
+  <header class="bg-primary p-2">
+    <h1>Learn HSK<a class="small text-white" href="https://www.linkedin.com/in/arnesdiego/">by Diego Arnes</a></h1>
+  </header>
+  <main>
+    <div class=" sticky-top  ">
+      <form class="p-1 row bg-white ">
+        <label class="checkbox-inline col-3"><input type="checkbox" value="Hsk1" data-toggle="collapse"
+            data-target=".hsk1" checked>Hsk1 (154 kanjis)</label>
+        <label class="checkbox-inline col-3"><input type="checkbox" value="Hsk2" data-toggle="collapse"
+            data-target=".hsk2" checked>Hsk2 (150 kanjis)</label>
+        <label class="checkbox-inline col-3"><input type="checkbox" value="Hsk3" data-toggle="collapse"
+            data-target=".hsk3" checked>Hsk3 (300 kanjis)</label>
+        <label class="checkbox-inline col-3"><input type="checkbox" value="Hsk4" data-toggle="collapse"
+            data-target=".hsk4" checked>Hsk4 (600 kanjis)</label>
+      </form>
+      <table class="table bg-info">
+        <tr class="table-secondary">
+          <th>Chinese <input id="kanji" type="checkbox" data-on="Hide" data-off="Showed" data-toggle="toggle"
+              data-offstyle="primary" data-onstyle="danger" data-size="small"></th>
+          <th>Pinyin <input id="pinyin" type="checkbox" data-on="Hide" data-off="Showed" data-toggle="toggle"
+              data-offstyle="primary" data-onstyle="danger" data-size="small"></th>
+          <th>English <input id="english" type="checkbox" data-on="Hide" data-off="Showed" data-toggle="toggle"
+              data-offstyle="primary" data-onstyle="danger" data-size="small"></th>
+          <th>Español <input id="spanish" type="checkbox" data-on="Hide" data-off="Showed" data-toggle="toggle"
+              data-offstyle="primary" data-onstyle="danger" data-size="small"></th>
+          <th>Sentence <input id="sentence" type="checkbox" data-on="Hide" data-off="Showed" data-toggle="toggle"
+              data-offstyle="primary" data-onstyle="danger" data-size="small"></th>
+        </tr>
+      </table>
+    </div>
+    <table class="table vocabulary table-striped bg-info">
+      <tbody id="data_area">
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
