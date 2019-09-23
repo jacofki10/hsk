@@ -1,5 +1,5 @@
 export var hsk2 = [
-  ["1", "Personal Pronoun", "您", "nín", "", "", ""],
+  ["1", "Personal Pronoun", "您", "nín", "You(Polite)", "Usted", ""],
   ["2", "Personal Pronoun", "它", "tā", "", "", ""],
   ["3", "Personal Pronoun", "大家", "dàjiā", "", "", ""],
   ["4", "Personal Pronoun", "每", "měi", "", "", ""],
@@ -51,7 +51,15 @@ export var hsk2 = [
   ["51", "Noun", "女人", "nǚrén", "", "", ""],
   ["52", "Noun", "服务员", "fúwùyuán", "", "", ""],
   ["53", "Noun", "鱼", "yú", "Fish", "El pescado", "这条河里有很多鱼。"],
-  ["54", "Noun", "羊肉", "yángròu", "Mutton", "Carne de cordero", "你吃过羊肉火锅吗。"],
+  [
+    "54",
+    "Noun",
+    "羊肉",
+    "yángròu",
+    "Mutton",
+    "Carne de cordero",
+    "你吃过羊肉火锅吗。"
+  ],
   ["55", "Noun", "牛奶", "niúnǎi", "Milk", "La leche", "我要去超市买牛奶。"],
   ["56", "Noun", "鸡蛋", "jīdàn", "Egg", "El huevo", "十块钱能买几个鸡蛋?"],
   ["57", "Noun", "西瓜", "xīguā", "Watermelon", "La sandía", "这个西瓜不甜。"],
@@ -60,19 +68,75 @@ export var hsk2 = [
   ["60", "Noun", "船", "chuán", "", "", ""],
   ["61", "Noun", "雪", "xué", "Snow", "La nieve", "今年冬天会下雪吗。"],
   ["62", "Noun", "药", "yào", "Medicine", "La medicina", "生病了就应该吃药。"],
-  ["63", "Noun", "手机", "shǒujī", "Cell phone", "El teléfono móvil", "他用手机给我拍了一些照片。"],
-  ["64", "Noun", "手表", "shǒubiǎo", "Watch", "El reloj", "妈妈给我买了一个新手表。"],
+  [
+    "63",
+    "Noun",
+    "手机",
+    "shǒujī",
+    "Cell phone",
+    "El teléfono móvil",
+    "他用手机给我拍了一些照片。"
+  ],
+  [
+    "64",
+    "Noun",
+    "手表",
+    "shǒubiǎo",
+    "Watch",
+    "El reloj",
+    "妈妈给我买了一个新手表。"
+  ],
   ["65", "Noun", "眼睛", "yǎnjīng", "Eye", "El ojo", "他有一双漂亮的蓝眼睛。"],
   ["66", "Noun", "身体", "shēntǐ", "Body", "El cuerpo", "你最近身体怎么样?"],
-  ["67", "Noun", "公共汽车", "gōnggòngqìchē", "Bus", "El autobús", "我爸爸是公共汽车司机。"],
-  ["68", "Noun", "报纸", "bàozhǐ", "Newspaper", "El periódico", "爷爷常常让我给他读报纸。"],
+  [
+    "67",
+    "Noun",
+    "公共汽车",
+    "gōnggòngqìchē",
+    "Bus",
+    "El autobús",
+    "我爸爸是公共汽车司机。"
+  ],
+  [
+    "68",
+    "Noun",
+    "报纸",
+    "bàozhǐ",
+    "Newspaper",
+    "El periódico",
+    "爷爷常常让我给他读报纸。"
+  ],
   ["69", "Noun", "门", "mén", "Door", "La puerta", "请帮我开一下门。"],
-  ["70", "Noun", "题", "tí", "Question, problem", "La pregunta, el problema", ""],
-  ["71", "Noun", "课", "kè", "Class, lesson", "La clase, la lección", "我很喜欢上汉语课。"],
+  [
+    "70",
+    "Noun",
+    "题",
+    "tí",
+    "Question, problem",
+    "La pregunta, el problema",
+    ""
+  ],
+  [
+    "71",
+    "Noun",
+    "课",
+    "kè",
+    "Class, lesson",
+    "La clase, la lección",
+    "我很喜欢上汉语课。"
+  ],
   ["72", "Noun", "姓", "xìng", "", "", ""],
   ["73", "Noun", "问题", "wèntí", "", "", ""],
   ["74", "Noun", "事情", "shìqing", "", "", ""],
-  ["75", "Noun", "考试", "kǎoshì", "Test, exam", "El test, el examen", "这次考试很简单。"],
+  [
+    "75",
+    "Noun",
+    "考试",
+    "kǎoshì",
+    "Test, exam",
+    "El test, el examen",
+    "这次考试很简单。"
+  ],
   ["76", "Noun", "票", "piào", "Ticket", "El billete", "这个公园不需要们票。"],
   ["77", "Noun", "意思", "yìsi", "", "", ""],
   ["78", "Noun", "颜色", "yánsè", "", "", ""],
@@ -148,4 +212,4 @@ export var hsk2 = [
   ["148", "Adverb", "一起", "yìqǐ", "", "", ""],
   ["149", "Adverb", "再", "zài", "", "", ""],
   ["150", "Adverb", "就", "jiǜ", "", "", ""]
-]
+];
