@@ -6,19 +6,19 @@ import { hsk2 } from "./hsk2";
 //import { hsk4 } from "./hsk4";
 {
   //1.HIDE AND SHOW DATA//
-  $("#kanji").change(function() {
+  $("#kanji").change(function () {
     $(".kanji").toggleClass("hide");
   });
-  $("#pinyin").change(function() {
+  $("#pinyin").change(function () {
     $(".pinyin").toggleClass("hide");
   });
-  $("#english").change(function() {
+  $("#english").change(function () {
     $(".english").toggleClass("hide");
   });
-  $("#spanish").change(function() {
+  $("#spanish").change(function () {
     $(".spanish").toggleClass("hide");
   });
-  $("#sentence").change(function() {
+  $("#sentence").change(function () {
     $(".sentence").toggleClass("hide");
   });
 
@@ -37,7 +37,9 @@ import { hsk2 } from "./hsk2";
   //print vocabulary in table
   function hskLevel(array, type, hsk) {
     const level = filterByType(array, type);
-    for (let i = 0; i < level.length; i++) {
+    let i;
+    const l = level.length;
+    for (i = 0; i < l; i++) {
       html += "<tr class='" + hsk + " collapse show'>";
       html += "<td class='kanji'>" + level[i][2] + "</td>";
       html += "<td class='pinyin'>" + level[i][3] + "</td>";
@@ -111,7 +113,6 @@ import { hsk2 } from "./hsk2";
   const button = $("#random");
 
   //search through div and add all images to an array
-
   const images = $(container).find("tr");
 
   //function to shuffle our array
@@ -142,13 +143,13 @@ import { hsk2 } from "./hsk2";
   function renderImages(array) {
     $(container).empty();
 
-    $.each(array, function(index, value) {
+    $.each(array, function (index, value) {
       $(container).append(value);
     });
   }
 
   //call the renderImages function when our button is pressed
-  $(button).on("click", function() {
+  $(button).on("click", function () {
     if (button.hasClass("on")) {
       $(".noRandom").empty();
       //render the random images to the screen

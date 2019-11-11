@@ -1,4 +1,4 @@
-export var hsk1 = [
+export const hsk1 = [
   ["1", "Personal Pronoun", "我", "wǒ", "I, me", "Yo, mí", "我不信。"],
   ["2", "Personal Pronoun", "我们", "wǒmen", "We, us （pl.）", "Nosotros, nuestro", "我们在商店。"],
   ["3", "Personal Pronoun", "你", "nǐ", "You", "Tú", "你有多少钱"],
