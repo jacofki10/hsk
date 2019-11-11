@@ -1,1 +1,7 @@
 # hsk Vocabulary website
+
+index.js file
+
+1.HIDE AND SHOW DATA
+2.PRINT VOCABULARY IN INDEX.HTML
+3.RANDOM WORDS ON BUTTON
