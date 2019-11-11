@@ -41,7 +41,7 @@ function filterByType(arr, type) {
 function hskLevel(array, type, hsk) {
   var level = filterByType(array, type);
   for (var i = 0; i < level.length; i++) {
-    html += "<tr class='"+ hsk +" collapse show'>";
+    html += "<tr class='" + hsk + " collapse show'>";
     html += "<td class='kanji'>" + level[i][2] + "</td>";
     html += "<td class='pinyin'>" + level[i][3] + "</td>";
     html += "<td class='english'>" + level[i][4] + "</td>";
@@ -52,13 +52,13 @@ function hskLevel(array, type, hsk) {
 }
 
 function PrintType(name, type) {
-html += "<tr class='table-dark noRandom'>";
-html += "<th colspan='5'>"+ name +"</th>";
-html += "</tr>";
-hskLevel(hsk1, type, 'hsk1');
-hskLevel(hsk2, type, 'hsk2');
-//hskLevel((hsk3, 'Personal Pronoun', 'hsk3');
-//hskLevel((hsk4, 'Personal Pronoun', 'hsk4');
+  html += "<tr class='table-dark noRandom'>";
+  html += "<th colspan='5'>" + name + "</th>";
+  html += "</tr>";
+  hskLevel(hsk1, type, 'hsk1');
+  hskLevel(hsk2, type, 'hsk2');
+  //hskLevel((hsk3, type, 'hsk3');
+  //hskLevel((hsk4, type, 'hsk4');
 }
 
 //print dom
@@ -74,7 +74,7 @@ PrintType('Demonstrative Pronoun ()', 'Demostrative Pronoun')
 PrintType('Interrogative Pronoun ()', 'Interrogative Pronoun')
 
 // Numberal
-PrintType( 'Numeral (数词)',  'Numeral')
+PrintType('Numeral (数词)', 'Numeral')
 
 // Quantifier
 PrintType('Quantifier ()', 'Quantifier')
@@ -86,7 +86,7 @@ PrintType('Conjuction ()', 'Conjuction')
 PrintType('Preposition ()', 'Preposition')
 
 //Auxiliary
-PrintType( 'Auxiliaryy ()',  'Auxiliary')
+PrintType('Auxiliaryy ()', 'Auxiliary')
 
 //Interjection
 PrintType('Interjection ()', 'Interjection')
@@ -107,7 +107,6 @@ html += "</table>";
 document.getElementById("data_area").innerHTML = html;
 
 
-
 //3.RANDOM WORDS ON BUTTON//
 //grab the div that contains our images
 var container = $('#data_area');
@@ -123,7 +122,7 @@ var images = $(container).find('tr');
 //using the Fisher-Yates Shuffle.
 //See https://github.com/coolaj86/knuth-shuffle
 function shuffleArray(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex ;
+  var currentIndex = array.length, temporaryValue, randomIndex;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
@@ -141,27 +140,27 @@ function shuffleArray(array) {
   return array;
 }
 //empty our image container and
-//append our images in a new random order 
+//append our images in a new random order
 //to the same container
-function renderImages(array){
-   $(container).empty();
+function renderImages(array) {
+  $(container).empty();
 
-   $.each(array, function( index, value ) {
-      $(container).append(value);
-   });
+  $.each(array, function (index, value) {
+    $(container).append(value);
+  });
 }
 
 //call the renderImages function when our button is pressed
-$(button).on("click", function(){
-  if(button.hasClass('on')){
+$(button).on("click", function () {
+  if (button.hasClass('on')) {
     $(".noRandom").empty();
- //render the random images to the screen
- var randomImages = shuffleArray(images);
- renderImages(randomImages);
- button.removeClass('on');
+    //render the random images to the screen
+    var randomImages = shuffleArray(images);
+    renderImages(randomImages);
+    button.removeClass('on');
   }
-   else{
+  else {
     document.getElementById("data_area").innerHTML = html;
     button.addClass('on');
-   } 
+  }
 });
