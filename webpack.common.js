@@ -8,7 +8,7 @@ module.exports = {
   },
   module: {
     rules: [
-       {
+      {
         test: /\.html$/,
         use: ["html-loader"]
       },
@@ -23,12 +23,12 @@ module.exports = {
     ]
   },
   plugins: [
-     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-     new webpack.ProvidePlugin(
-      {
-        $: 'jquery',
-        jquery: 'jquery'
-      }
-    )
-    ]
+    new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      Popper: ['popper.js', 'default']
+    })
+  ]
 }

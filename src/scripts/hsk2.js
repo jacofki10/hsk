@@ -1,15 +1,15 @@
 export const hsk2 = [
-  ["1", "Personal Pronoun", "您", "nín", "You(Polite)", "Usted", ""],
-  ["2", "Personal Pronoun", "它", "tā", "it", "eso(cosa)", ""],
-  ["3", "Personal Pronoun", "大家", "dàjiā", "all; everybody", "todos", ""],
-  ["4", "Personal Pronoun", "每", "měi", "every; each; per", "todo; cada", ""],
-  ["5", "Interrogative Pronoun", "为什么", "wèishénme", "why", "por que", ""],
-  ["6", "Numeral", "两", "liǎng", "two; both", "dos; ambos", ""],
-  ["7", "Numeral", "百", "bǎi", "hundred", "cien", ""],
-  ["8", "Numeral", "千", "qiān", "thousand", "mil", ""],
-  ["9", "Numeral", "第一", "dìyī", "first", "el primero", ""],
-  ["10", "Quantifier", "次", "cì", "time", "la vez", ""],
-  ["11", "Quantifier", "公斤", "gōngjīn", "kilogram(kg)", "kilogramo(kg)", ""],
+  ["1", "Personal Pronoun", "您", "nín", "You(Polite)", "Usted", "您的妻子好吗？"],
+  ["2", "Personal Pronoun", "它", "tā", "it", "eso(cosa)", "我很喜欢这只狗，因为它很可爱。"],
+  ["3", "Personal Pronoun", "大家", "dàjiā", "all; everybody", "todos", "大家都觉得她是个好老师。"],
+  ["4", "Personal Pronoun", "每", "měi", "every; each; per", "todo; cada", "她每天都去图书馆看书。"],
+  ["5", "Interrogative Pronoun", "为什么", "wèishénme", "why", "por que", "他们为什么这么高兴？"],
+  ["6", "Numeral", "两", "liǎng", "two; both", "dos; ambos", "他们一个星期去看两次电影。"],
+  ["7", "Numeral", "百", "bǎi", "hundred", "cien", "这件衣服三百块钱。"],
+  ["8", "Numeral", "千", "qiān", "thousand", "mil", "这个公司有几前个人？"],
+  ["9", "Numeral", "第一", "dìyī", "first", "el primero", "谁来回答第一个问题？"],
+  ["10", "Quantifier", "次", "cì", "time", "la vez", "我再给你一次机会。"],
+  ["11", "Quantifier", "公斤", "gōngjīn", "kilogram(kg)", "kilogramo(kg)", "这人一百公斤重。"],
   [
     "12",
     "Quantifier",
@@ -17,7 +17,7 @@ export const hsk2 = [
     "yuán",
     "yuan(monetary unit of China)",
     "yuan(unidad monetaria de China)",
-    ""
+    "我给你五元。"
   ],
   [
     "13",
@@ -26,7 +26,7 @@ export const hsk2 = [
     "jiàn",
     "for clothing, furniture, luggage, etc",
     "para ropa, muebles, maletas. etc",
-    ""
+    "我昨天在商场买了一件衣服。"
   ],
   [
     "14",
@@ -35,9 +35,9 @@ export const hsk2 = [
     "zhāng",
     "for bed, desk, paper, face, etc",
     "para camas, escritorio, papel, cara, etc",
-    ""
+    "两张床要多少钱？"
   ],
-  ["15", "Conjuction", "因为", "yīnwèi", "because; as", "porque; como", ""],
+  ["15", "Conjuction", "因为", "yīnwèi", "because; as", "porque; como", "因为她生病了，所以她今天没来。"],
   [
     "16",
     "Conjuction",
@@ -45,7 +45,7 @@ export const hsk2 = [
     "suǒyǐ",
     "as a result; so",
     "como resultado; entonces",
-    ""
+    "我昨天很累，所以很早就睡了。"
   ],
   [
     "17",
@@ -54,7 +54,7 @@ export const hsk2 = [
     "dànshì",
     "but; yet; still",
     "pero; todavia; aun",
-    ""
+    "这道菜不好看，但是很好吃。"
   ],
   [
     "18",
@@ -63,7 +63,7 @@ export const hsk2 = [
     "cóng",
     "from(a time, a place, or a point of view)",
     "desde(un tiempo, un lugar o un punto de vista)",
-    ""
+    "你是从哪里来的？"
   ],
   [
     "19",
@@ -72,9 +72,9 @@ export const hsk2 = [
     "duì",
     "with regard to; concerning",
     "con respecto a; sobre",
-    ""
+    "你有什么话想对我说吗。"
   ],
-  ["20", "Preposition", "此", "cǐ", "this", "este", ""],
+  ["20", "Preposition", "此", "cǐ", "this", "este", "此人好不好？"],
   [
     "21",
     "Preposition",
@@ -82,7 +82,7 @@ export const hsk2 = [
     "xiàng",
     "to; towards; in the direction of",
     "a; hacia; en direccion a ",
-    ""
+    "去北向十分钟。"
   ],
   [
     "22",
@@ -91,7 +91,7 @@ export const hsk2 = [
     "lí",
     "leave; part from",
     "salir; partir desde",
-    ""
+    "我家离学校很近。"
   ],
   [
     "23",
@@ -100,7 +100,7 @@ export const hsk2 = [
     "de",
     "after verb/adj to express possibility/capability",
     "despues de un verbo/adj para expresar posibilidad/capacidad",
-    ""
+    "姐姐唱歌唱得很好。"
   ],
   [
     "24",
@@ -109,7 +109,7 @@ export const hsk2 = [
     "zhe",
     "added to verb/adj to indicate continued action",
     "junto a un verbo/adj para indicar accion continuada",
-    ""
+    "你找我有事吗/我正忙着呢。"
   ],
   [
     "25",
@@ -118,7 +118,7 @@ export const hsk2 = [
     "guo",
     "after verb/adj to indicate compleation of and action",
     "despues de un verbo/adj para expresar pasado",
-    ""
+    "她上大学的时候不过17岁。"
   ],
   [
     "26",
@@ -127,11 +127,11 @@ export const hsk2 = [
     "ba",
     "indicating a suggestion, request or mild command",
     "indica una sugerencia, solicitud o comando leve",
-    ""
+    "今天我们去吃中国菜吧。"
   ],
-  ["27", "Noun", "机场", "jīchǎng", "airport", "el aeropuerto", ""],
-  ["28", "Noun", "教室", "jiàoshì", "classroom", "la clase", ""],
-  ["29", "Noun", "房间", "fángjiān", "room", "la habitacion", ""],
+  ["27", "Noun", "机场", "jīchǎng", "airport", "el aeropuerto", "从这儿 去机场要一个小时。"],
+  ["28", "Noun", "教室", "jiàoshì", "classroom", "la clase", "我们的教室在五楼。"],
+  ["29", "Noun", "房间", "fángjiān", "room", "la habitacion", "我终于有自己的房间了。"],
   ["30", "Noun", "路", "lù", "Road", "La carretera", "这个路不好走。"],
   ["32", "Noun", "左边", "zuǒbiān", "left", "la izquierda", "你往左边站一点儿。"],
   ["33", "Noun", "右边", "yòubiān", "right", "la derecha", "右边的电梯坏了。"],
@@ -158,7 +158,7 @@ export const hsk2 = [
     "他病了好长时间。"
   ],
   ["40", "Noun", "去年", "qùnián", "last year", "el año pasado", "我去年就已经毕业了。"],
-  ["41", "Noun", "号", "hào", "number", "el numero", ""],
+  ["41", "Noun", "号", "hào", "number", "el numero", "五号楼有很多酒吧。"],
   ["42", "Noun", "生日", "shēngrì", "birthday", "el cumpleaños", "我刚过完25岁的生日。"],
   ["43", "Noun", "哥哥", "gēge", "(elder) brother", "el hermano mayor", "我真希望我有一个哥哥。"],
   ["44", "Noun", "姐姐", "jiějie", "(elder) sister", "la hermana mayor", "我姐姐最近在减肥。"],
@@ -175,9 +175,9 @@ export const hsk2 = [
     "el/la niñ@; el/la hij@",
     "孩子们都很喜欢吃糖。"
   ],
-  ["50", "Noun", "男人", "nánrén", "man", "el hombre", ""],
-  ["51", "Noun", "女人", "nǚrén", "women", "la mujer", ""],
-  ["52", "Noun", "服务员", "fúwùyuán", "waiter/waitress", "el/la camarer@", ""],
+  ["50", "Noun", "男人", "nánrén", "man", "el hombre", "请问你有男朋友吗？"],
+  ["51", "Noun", "女人", "nǚrén", "women", "la mujer", "我们学校一共有四十个女老师。"],
+  ["52", "Noun", "服务员", "fúwùyuán", "waiter/waitress", "el/la camarer@", "这家饭店的服务员很热情。"],
   ["53", "Noun", "鱼", "yú", "Fish", "El pescado", "这条河里有很多鱼。"],
   [
     "54",
@@ -192,8 +192,8 @@ export const hsk2 = [
   ["56", "Noun", "鸡蛋", "jīdàn", "Egg", "El huevo", "十块钱能买几个鸡蛋?"],
   ["57", "Noun", "西瓜", "xīguā", "Watermelon", "La sandía", "这个西瓜不甜。"],
   ["58", "Noun", "咖啡", "kāfēi", "Coffee", "El café", "我想和一杯咖啡。"],
-  ["59", "Noun", "自行车", "zìxíngchē", "bicycle; bike", "la bicicleta", ""],
-  ["60", "Noun", "船", "chuán", "boat; ship", "el barco; la embarcacion", ""],
+  ["59", "Noun", "自行车", "zìxíngchē", "bicycle; bike", "la bicicleta", "骑自行车很简单。"],
+  ["60", "Noun", "船", "chuán", "boat; ship", "el barco; la embarcacion", "如果你用一个船你希望去哪里？"],
   ["61", "Noun", "雪", "xué", "Snow", "La nieve", "今年冬天会下雪吗。"],
   ["62", "Noun", "药", "yào", "Medicine", "La medicina", "生病了就应该吃药。"],
   [
@@ -253,7 +253,7 @@ export const hsk2 = [
     "La clase, la lección",
     "我很喜欢上汉语课。"
   ],
-  ["72", "Noun", "姓", "xìng", "surname; family name", "apellido", ""],
+  ["72", "Noun", "姓", "xìng", "surname; family name", "apellido", "请问你姓什么？"],
   [
     "73",
     "Noun",
@@ -270,7 +270,7 @@ export const hsk2 = [
     "shìqing",
     "affair; matter; thing",
     "asunto; cosa*(que hacer)",
-    ""
+    "这件事情没有这么简单。"
   ],
   [
     "75",
@@ -289,7 +289,7 @@ export const hsk2 = [
     "yìsi",
     "meaning; idea",
     "el significado; la idea",
-    ""
+    "我明白你的意思了。"
   ],
   ["78", "Noun", "颜色", "yánsè", "color", "el color", "他的眼睛是什么颜色的？"],
   [
@@ -299,76 +299,76 @@ export const hsk2 = [
     "huānyíng",
     "To welcome; greet",
     "Dar la bienvenida",
-    ""
+    "欢迎参观。"
   ],
-  ["80", "Verb", "问", "wèn", "To ask", "Preguntar", ""],
-  ["81", "Verb", "走", "zǒu", "To walk", "Andar", ""],
-  ["82", "Verb", "进", "jìn", "To enter", "Entrar", ""],
-  ["83", "Verb", "跑步", "pǎobù", "To run", "Correr", ""],
-  ["84", "Verb", "到", "dào", "To arrive", "Llegar", ""],
-  ["85", "Verb", "穿", "chuān", "To wear", "", ""],
-  ["86", "Verb", "出", "chū", "To exit", "Salir", ""],
-  ["87", "Verb", "洗", "xǐ", "To wash", "Lavar", ""],
-  ["88", "Verb", "给", "gěi", "To give", "Dar", ""],
-  ["91", "Verb", "找", "zhǎo", "To find", "Encontrar", ""],
-  ["92", "Verb", "懂", "dǒng", "To understand", "Entender", ""],
-  ["93", "Verb", "笑", "xiào", "To laugh", "Reir ", ""],
-  ["94", "Verb", "回答", "huídá", "To answer", "Contestar", ""],
-  ["95", "Verb", "告诉", "gàosù", "To tell", "Decir", ""],
-  ["96", "Verb", "准备", "zhǔnbèi", "To prepare", "Preparar", ""],
-  ["97", "Verb", "开始", "kāishǐ", "To start", "Empezar", ""],
-  ["98", "Verb", "介绍", "jièshào", "To introduce", "Presentar", ""],
-  ["99", "Verb", "帮助", "bāngzhù", "To help", "Ayudar", ""],
-  ["100", "Verb", "玩", "wán", "To play", "Jugar", ""],
-  ["101", "Verb", "送", "sòng", "To send", "Enviar", ""],
-  ["102", "Verb", "等", "děng", "To wait", "Esperar", ""],
-  ["103", "Verb", "让", "ràng", "To let", "Permitir", ""],
-  ["104", "Verb", "起床", "qǐchuáng", "To get up", "Levantarse", ""],
-  ["105", "Verb", "唱歌", "chànggē", "To sing", "Cantar", ""],
-  ["106", "Verb", "跳舞", "tiàowǔ", "To dance", "Bailar", ""],
-  ["107", "Verb", "旅游", "lǚyóu", "To travel", "Viajar", ""],
-  ["108", "Verb", "上班", "shàngbān", "To start work", "Empezar a trabajar", ""],
-  ["109", "Verb", "生病", "shēngbìng", "To fall ill", "Enfermar", ""],
-  ["110", "Verb", "休息", "xiūxi", "To rest", "Descansar", ""],
+  ["80", "Verb", "问", "wèn", "To ask", "Preguntar", "你去问老师吧。"],
+  ["81", "Verb", "走", "zǒu", "To walk", "Andar", "你走快一点儿，我们要迟到了。"],
+  ["82", "Verb", "进", "jìn", "To enter", "Entrar", "我看着他走进了教室。"],
+  ["83", "Verb", "跑步", "pǎobù", "To run", "Correr", "她每天起床后，都会去公园跑步。"],
+  ["84", "Verb", "到", "dào", "To arrive", "Llegar", "如果你到了，你就先点菜吧。"],
+  ["85", "Verb", "穿", "chuān", "To wear", "Ponerse", "她今天穿了一个漂亮的新衣服。"],
+  ["86", "Verb", "出", "chū", "To exit", "Salir", "今天太冷了，我不想出门。"],
+  ["87", "Verb", "洗", "xǐ", "To wash", "Lavar", "你吃完饭记得洗碗。"],
+  ["88", "Verb", "给", "gěi", "To give", "Dar", "她给我很多礼物。"],
+  ["91", "Verb", "找", "zhǎo", "To find", "Encontrar", "你找到新的工作吗？"],
+  ["92", "Verb", "懂", "dǒng", "To understand", "Entender", "别人都懂了，只有你还不明白。"],
+  ["93", "Verb", "笑", "xiào", "To laugh", "Reir ", "爸爸笑很多。"],
+  ["94", "Verb", "回答", "huídá", "To answer", "Contestar", "这个问题好回答。"],
+  ["95", "Verb", "告诉", "gàosù", "To tell", "Decir", "她打电话告诉我很好的人。"],
+  ["96", "Verb", "准备", "zhǔnbèi", "To prepare", "Preparar", "你准备什么时候回国？"],
+  ["97", "Verb", "开始", "kāishǐ", "To start", "Empezar", "我决定从明天开始学习做饭。"],
+  ["98", "Verb", "介绍", "jièshào", "To introduce", "Presentar", "老师真在给我们介绍新同学。"],
+  ["99", "Verb", "帮助", "bāngzhù", "To help", "Ayudar", "好朋友应该互相帮助。"],
+  ["100", "Verb", "玩", "wán", "To play", "Jugar", "你们今天想去哪儿玩儿？"],
+  ["101", "Verb", "送", "sòng", "To send", "Enviar", "你准备送她什么生日礼物？"],
+  ["102", "Verb", "等", "děng", "To wait", "Esperar", "我在家等妈妈回来做饭。"],
+  ["103", "Verb", "让", "ràng", "To let", "Permitir", "妈妈不让我看电视。"],
+  ["104", "Verb", "起床", "qǐchuáng", "To get up", "Levantarse", "我一点儿都不想起床。"],
+  ["105", "Verb", "唱歌", "chànggē", "To sing", "Cantar", "你们班谁唱歌最好听？"],
+  ["106", "Verb", "跳舞", "tiàowǔ", "To dance", "Bailar", "晚饭后她去广场上跳舞。"],
+  ["107", "Verb", "旅游", "lǚyóu", "To travel", "Viajar", "我很忙，都没有时间去旅游。"],
+  ["108", "Verb", "上班", "shàngbān", "To start work", "Empezar a trabajar", "她每天骑自行车去上班。"],
+  ["109", "Verb", "生病", "shēngbìng", "To fall ill", "Enfermar", "我听说你生病了。"],
+  ["110", "Verb", "休息", "xiūxi", "To rest", "Descansar", "医生说她需要休息。"],
   ["111", "Verb", "运动", "yùndòng", "To exercise", "Hacer ejercicio", "医生告诉我要多做运动。"],
-  ["112", "Verb", "游泳", "yóuyǒng", "To swim", "Nadar", ""],
-  ["113", "Verb", "踢足球", "tīzúqiú", "To play football", "Jugar al futbol", ""],
-  ["114", "Verb", "打篮球", "dǎlánqiú", "To play basketball", "Jugar al baloncesto", ""],
-  ["115", "Verb", "完", "wán", "To finish", "Finalizar", ""],
-  ["116", "Verb", "觉得", "juédé", "To think", "Pensar", ""],
-  ["117", "Verb", "知道", "zhīdào", "To know", "Saber", ""],
-  ["118", "Verb", "希望", "xīwàng", "To wish", "Desear", ""],
-  ["119", "Verb", "可以", "kěyǐ", "Can (allow)", "Poder (Permitir)", ""],
-  ["120", "Verb", "要", "yào", "To want", "Querer", ""],
-  ["121", "Verb", "可能", "kěnéng", "Might (happen)", "Poder (Suceder)", ""],
-  ["122", "Adjetive", "高", "gāo", "Tall", "Alto", ""],
-  ["123", "Adjetive", "红", "hóng", "Red", "Rojo", ""],
-  ["124", "Adjetive", "白", "bái", "White", "Blanco", ""],
-  ["125", "Adjetive", "黑", "hēi", "Black", "Negro", ""],
-  ["126", "Adjetive", "忙", "máng", "Busy", "Ocupado", ""],
-  ["127", "Adjetive", "快", "kuài", "Fast", "Rapido", ""],
-  ["128", "Adjetive", "慢", "màn", "Slow", "Despacio", ""],
-  ["129", "Adjetive", "远", "yuǎn", "Far", "Lejos", ""],
-  ["130", "Adjetive", "近", "jìn", "Near", "Cerca", ""],
-  ["131", "Adjetive", "好吃", "hǎochī", "Delicious", "Rico", ""],
-  ["132", "Adjetive", "累", "lèi", "(be) Tired", "(estar) cansado", ""],
-  ["133", "Adjetive", "长", "cháng", "Long", "Largo", ""],
-  ["134", "Adjetive", "新", "xīn", "New", "Nuevo", ""],
-  ["135", "Adjetive", "贵", "guì", "Expensive", "Caro", ""],
-  ["136", "Adjetive", "便宜", "piányi", "Cheap", "Barato", ""],
-  ["137", "Adjetive", "晴", "qíng", "Fine; clear (weather)", "Bueno; claro (tiempo)", ""],
-  ["138", "Adjetive", "阴", "yīn", "Overcast", "Nublado", ""],
-  ["139", "Adjetive", "错", "cuò", "Wrong; erroneous", "Incorrecto; erroneo", ""],
-  ["140", "Adjetive", "快乐", "kuàilè", "Happy", "Feliz", ""],
-  ["141", "Adverb", "别", "bié", "Other", "Otro", ""],
-  ["142", "Adverb", "非常", "fēicháng", "Very; extremely", "Muy; extremadamente", ""],
-  ["143", "Adverb", "也", "yě", "Also; too; as well", "Tambien; ademas", ""],
-  ["144", "Adverb", "还", "hái", "Still; yet", "Todavia; aun", ""],
-  ["145", "Adverb", "最", "zuì", "Most; -est", "El que mas", ""],
-  ["146", "Adverb", "真", "zhēn", "Really", "Enserio", ""],
-  ["147", "Adverb", "正在", "zhèngzài", "In process of", "En proceso de", ""],
-  ["148", "Adverb", "已经", "yǐjīng", "Already", "Ya", ""],
-  ["149", "Adverb", "一起", "yìqǐ", "Together", "Juntos", ""],
-  ["150", "Adverb", "再", "zài", "Again; once more", "De nuevo; una vez mas", ""],
-  ["151", "Adverb", "就", "jiǜ", "At once; right away", "En seguida; inmediatamente", ""]
+  ["112", "Verb", "游泳", "yóuyǒng", "To swim", "Nadar", "我最近在学游泳。"],
+  ["113", "Verb", "踢足球", "tīzúqiú", "To play football", "Jugar al futbol", "操场上有很多孩子在踢足球。"],
+  ["114", "Verb", "打篮球", "dǎlánqiú", "To play basketball", "Jugar al baloncesto", "哥哥说明天教我打篮球。"],
+  ["115", "Verb", "完", "wán", "To finish", "Finalizar", "我终于把这本书看完了。"],
+  ["116", "Verb", "觉得", "juédé", "To think", "Pensar", "我觉得这个电影不好看。"],
+  ["117", "Verb", "知道", "zhīdào", "To know", "Saber", "我不知道她现在在哪里。"],
+  ["118", "Verb", "希望", "xīwàng", "To wish", "Desear", "我希望爸爸妈妈身体健康。"],
+  ["119", "Verb", "可以", "kěyǐ", "Can (allow)", "Poder (Permitir)", "wo打篮球打得还可以。"],
+  ["120", "Verb", "要", "yào", "To want", "Querer", "我要休息一下。"],
+  ["121", "Verb", "可能", "kěnéng", "Might (happen)", "Poder (Suceder)", "今天可能会下雨。"],
+  ["122", "Adjetive", "高", "gāo", "Tall", "Alto", "世界上最高的楼在哪个国家？"],
+  ["123", "Adjetive", "红", "hóng", "Red", "Rojo", "红玫瑰代表爱情。"],
+  ["124", "Adjetive", "白", "bái", "White", "Blanco", "他的牙齿非常白。"],
+  ["125", "Adjetive", "黑", "hēi", "Black", "Negro", "外面太黑的，我什么都看不见。"],
+  ["126", "Adjetive", "忙", "máng", "Busy", "Ocupado", "我换了新工作，不以前更忙了。"],
+  ["127", "Adjetive", "快", "kuài", "Fast", "Rapido", "你快一点儿，火车要开了。"],
+  ["128", "Adjetive", "慢", "màn", "Slow", "Despacio", "我们走得很慢。"],
+  ["129", "Adjetive", "远", "yuǎn", "Far", "Lejos", "这儿离火车站有多元？"],
+  ["130", "Adjetive", "近", "jìn", "Near", "Cerca", "我家和他家离得很近。"],
+  ["131", "Adjetive", "好吃", "hǎochī", "Delicious", "Rico", "这个饭店的菜好吃吗？"],
+  ["132", "Adjetive", "累", "lèi", "(be) Tired", "(estar) cansado", "我们都早上很累。"],
+  ["133", "Adjetive", "长", "cháng", "Long", "Largo", "她在这儿等了你很长时间了。"],
+  ["134", "Adjetive", "新", "xīn", "New", "Nuevo", "我要买一双新的皮鞋。"],
+  ["135", "Adjetive", "贵", "guì", "Expensive", "Caro", "你为什么买这么贵的手机？"],
+  ["136", "Adjetive", "便宜", "piányi", "Cheap", "Barato", "火车票比飞机票便宜很多。"],
+  ["137", "Adjetive", "晴", "qíng", "Fine; clear (weather)", "Bueno; claro (tiempo)", "今天是晴天。"],
+  ["138", "Adjetive", "阴", "yīn", "Overcast", "Nublado", "不管是晴天还是阴天，我爱你。"],
+  ["139", "Adjetive", "错", "cuò", "Wrong; erroneous", "Incorrecto; erroneo", "你知道你哪里做错了吗？"],
+  ["140", "Adjetive", "快乐", "kuàilè", "Happy", "Feliz", "和你聊天我觉得很快乐。"],
+  ["141", "Adverb", "别", "bié", "Other", "Otro", "哥哥真在学习，你别打扰他。"],
+  ["142", "Adverb", "非常", "fēicháng", "Very; extremely", "Muy; extremadamente", "这件事你做得非常好。"],
+  ["143", "Adverb", "也", "yě", "Also; too; as well", "Tambien; ademas", "我听说你也喜欢看电影。"],
+  ["144", "Adverb", "还", "hái", "Still; yet", "Todavia; aun", "这个孩子还挺聪明的。"],
+  ["145", "Adverb", "最", "zuì", "Most; -est", "El que mas", "这是我们班成绩最好的学生。"],
+  ["146", "Adverb", "真", "zhēn", "Really", "Enserio", "这真是一个好办法。"],
+  ["147", "Adverb", "正在", "zhèngzài", "In process of", "En proceso de", "王经理正在开会。"],
+  ["148", "Adverb", "已经", "yǐjīng", "Already", "Ya", "我们已经十年没有见面了。"],
+  ["149", "Adverb", "一起", "yìqǐ", "Together", "Juntos", "我们一起去公园吧。"],
+  ["150", "Adverb", "再", "zài", "Again; once more", "De nuevo; una vez mas", "你能不能再说一遍？"],
+  ["151", "Adverb", "就", "jiǜ", "At once; right away", "En seguida; inmediatamente", "这双鞋还不错，就买这双吧。"]
 ];

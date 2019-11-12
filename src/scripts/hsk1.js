@@ -110,7 +110,7 @@ export const hsk1 = [
   ["110", "Verb", "没关系", "méiguānxì", "That's ok, it doesn't matter", "No hay de que, importar", "你喜不喜欢没关系。"],
   ["111", "Verb", "是", "shì", "To be", "Ser, estar", "他是医生。"],
   ["112", "Verb", "有", "yǒu", "To have, there be", "Tener, hay", "我有一本汉语书。"],
-  ["113", "Verb", "看", "kàn", "To look at, to watch, to read", "Mirar, ver, leer", "妈妈在家看电影。"],
+  ["113", "Verb", "看", "kàn", "To look at, to watch", "Mirar, ver, leer", "妈妈在家看电影。"],
   ["114", "Verb", "听", "tīng", "To listen", "Escuchar", "我想听你说汉语。"],
   ["115", "Verb", "说", "shuō", "To speak, to say", "Hablar, decir", "他说他喜欢喝茶。"],
   ["116", "Verb", "读", "dú", "To read", "Leer", "这个字怎么读?"],
