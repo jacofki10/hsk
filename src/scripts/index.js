@@ -40,20 +40,19 @@ import { hsk2 } from "./hsk2";
     let i;
     const l = level.length;
     for (i = 0; i < l; i++) {
-      html += "<tr class='" + hsk + " collapse show'>";
-      html += "<td class='kanji'>" + level[i][2] + "</td>";
-      html += "<td class='pinyin'>" + level[i][3] + "</td>";
-      html += "<td class='english'>" + level[i][4] + "</td>";
-      html += "<td class='spanish'>" + level[i][5] + "</td>";
-      html += "<td class='sentence'>" + level[i][6] + "</td>";
-      html += "</tr>";
+      html += `<tr class='${hsk} collapse show'>`;
+      html += `<td class='kanji'>${level[i][2]}</td>`;
+      html += `<td class='pinyin'>${level[i][3]}</td>`;
+      html += `<td class='spanish'>${level[i][5]}</td>`;
+      html += `<td class='sentence'>${level[i][6]}+ </td>`;
+      html += `</tr>`;
     }
   }
 
   function PrintType(name, type) {
-    html += "<tr class='table-dark noRandom'>";
-    html += "<th colspan='5'>" + name + "</th>";
-    html += "</tr>";
+    html += `<tr class='table-dark noRandom'>`;
+    html += `<th colspan='4'>${name}</th>`;
+    html += `</tr>`;
     hskLevel(hsk1, type, "hsk1");
     hskLevel(hsk2, type, "hsk2");
     //hskLevel((hsk3, 'Personal Pronoun', 'hsk3');
@@ -62,7 +61,7 @@ import { hsk2 } from "./hsk2";
 
   //print dom
   let html = "";
-  html += "<table>";
+  html += `<table>`;
   //Personal Pronoun
   PrintType("Personal Pronoun(人称代词)", "Personal Pronoun");
 
